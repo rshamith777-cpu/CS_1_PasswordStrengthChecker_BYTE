@@ -153,27 +153,54 @@ All 8 tests run and validate length checks, common flags, policy updates, and ze
 
 ---
 
+---
+
+## 📸 Execution Screenshots
+
+<div align="center">
+
+### 1. Weak Password Detection
+<img src="screenshots/01_weak_password.png" alt="Weak Password Evaluation" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 2. Strong Password Assessment
+<img src="screenshots/02_strong_password.png" alt="Strong Password Evaluation" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 3. Detailed Rule-by-Rule Breakdown
+<img src="screenshots/03_rule_breakdown.png" alt="Rule Breakdown" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 4. Unit Test Suite Execution
+<img src="screenshots/04_unit_tests.png" alt="Unit Test Suite" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+</div>
+
+---
+
 ## 📁 Project Structure
 
 ```text
 CS_1_PasswordStrengthChecker_BYTE/
-├── screenshots/             # Visual banners & architecture illustrations
-│   ├── sentinelpass_hero_banner.jpg
-│   └── sentinelpass_architecture.jpg
+│
 ├── src/
 │   └── sentinelpass/
 │       ├── __init__.py
-│       ├── analyzer.py      # Core heuristic scoring and entropy logic
-│       ├── cli.py           # Command-line interface and formatting
-│       └── policy.json      # Configurable evaluation parameters
+│       ├── analyzer.py
+│       ├── cli.py
+│       └── policy.json
 ├── tests/
-│   ├── __init__.py
-│   └── test_analyzer.py     # Automated unit test suite
+│   └── test_analyzer.py
 ├── examples/
-│   ├── sample_report.json   # Synthetic demonstration reports
+│   ├── sample_report.json
 │   └── my_report.json
-├── pyproject.toml
-└── README.md
+├── screenshots/
+│   ├── 01_weak_password.png
+│   ├── 02_strong_password.png
+│   ├── 03_rule_breakdown.png
+│   └── 04_unit_tests.png
+│
+├── README.md
+├── SECURITY.md
+├── LICENSE
+└── pyproject.toml
 ```
 
 ---
