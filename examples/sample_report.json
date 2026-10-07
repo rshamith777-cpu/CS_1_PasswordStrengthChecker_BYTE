@@ -1,0 +1,24 @@
+{
+  "score": 100,
+  "category": "Strong",
+  "length": 25,
+  "estimated_entropy_bits": 164.2,
+  "checks": {
+    "minimum_length": true,
+    "recommended_length": true,
+    "lowercase": true,
+    "uppercase": true,
+    "digit": true,
+    "symbol": true,
+    "not_common": true,
+    "no_obvious_sequence": true,
+    "no_long_repeated_run": true
+  },
+  "findings": [
+    "Meets the recommended length."
+  ],
+  "recommendations": [
+    "Keep it unique to this account and store it in a reputable password manager."
+  ],
+  "disclaimer": "Heuristic estimate only; not a guarantee of resistance to cracking. Entropy assumes random character selection, which human-chosen passwords often do not have."
+}

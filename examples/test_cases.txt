@@ -1,0 +1,6 @@
+SentinelPass manual test cases (use these only as examples; never enter a real account password)
+1. Empty input: expected Weak.
+2. password123: expected common-password warning.
+3. Abc!9LongPassword: expected sequence warning.
+4. GoodPass!1111Long: expected repeated-run warning.
+5. A long mixed-character test string: should pass more checks, but the score is heuristic.

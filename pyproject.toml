@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinelpass"
+version = "1.0.0"
+description = "Local-first, explainable password strength checker for AVIP 2026"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Shamith R" }]
+dependencies = []
+
+[project.scripts]
+sentinelpass = "sentinelpass.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sentinelpass = ["policy.json"]

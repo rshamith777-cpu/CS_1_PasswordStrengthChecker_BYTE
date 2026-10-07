@@ -1,0 +1,27 @@
+{
+  "score": 47,
+  "category": "Moderate",
+  "length": 6,
+  "estimated_entropy_bits": 35.7,
+  "checks": {
+    "minimum_length": false,
+    "recommended_length": false,
+    "lowercase": true,
+    "uppercase": true,
+    "digit": true,
+    "symbol": false,
+    "not_common": true,
+    "no_obvious_sequence": false,
+    "no_long_repeated_run": true
+  },
+  "findings": [
+    "Below the configured minimum of 12 characters.",
+    "Missing symbols.",
+    "Contains an obvious sequence or keyboard-row pattern."
+  ],
+  "recommendations": [
+    "Use at least 16 characters; a long unique passphrase can help.",
+    "Avoid keyboard rows, alphabet runs, and number sequences."
+  ],
+  "disclaimer": "Heuristic estimate only; not a guarantee of resistance to cracking. Entropy assumes random character selection, which human-chosen passwords often do not have."
+}
